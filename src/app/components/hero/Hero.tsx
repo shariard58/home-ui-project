@@ -12,7 +12,7 @@ const optionsTexts: TextTypes[] = [
 
 export default function Hero() {
   return (
-    <div className=' mt-0 md:mt-6  flex flex-col md:flex-row md:justify-between text-white  px-[6px] md:px-0'>
+    <div className='mt-0 md:mt-6  flex flex-col md:flex-row md:justify-between text-white  px-[6px] md:px-0'>
       <div className='w-full p-0 order-1 md:order-0 '>
         <p className='text-center md:text-start text-[25px] md:text-[35px] font-bold text-white m-0 p-0 leading-tight'>
           Want to Turn Social Media Into a Profitable Career?
@@ -57,7 +57,7 @@ export default function Hero() {
           </div>
 
           <div className='order-0 md:order-1'>
-            <p className='font-figstext-center md:text-start text-[12px] font-medium text-[#ABABAB]'>{`By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms`}</p>
+            <p className='font-figs text-center md:text-start text-[12px] font-medium text-[#ABABAB]'>{`By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms`}</p>
             <p className='font-figs text-center md:text-start text-[10px] font-medium text-[#ABABAB] mt-2'>
               Fametonic 2025 ©All Rights Reserved.
             </p>
