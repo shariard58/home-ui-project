@@ -28,7 +28,7 @@ export default function Header() {
       </div>
 
       {isMenuOpen && (
-        <div className='absolute top-0 right-0 w-full h-[250px] bg-black rounded-md shadow-lg z-50 md:hidden flex flex-col p-4'>
+        <div className='absolute top-0 right-0 w-full h-[250px] bg-black rounded-md shadow-lg z-10 md:hidden flex flex-col p-4'>
           <div className='flex justify-end'>
             <IoMdClose size={28} className='cursor-pointer text-white' onClick={toggleMenu} />
           </div>
