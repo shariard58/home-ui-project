@@ -58,7 +58,7 @@ export default function Hero() {
 
           <div className='order-0 md:order-1'>
             <p className='font-figs text-center md:text-start text-[12px] font-medium text-[#ABABAB]'>{`By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms`}</p>
-            <p className='font-figs text-center md:text-start text-[10px] font-medium text-[#ABABAB] mt-4 md:mt-2'>
+            <p className='font-figs text-center md:text-start text-[10px] font-medium text-[#ABABAB] mt-6 mb-4 md:mt-2'>
               Fametonic 2025 ©All Rights Reserved.
             </p>
           </div>
