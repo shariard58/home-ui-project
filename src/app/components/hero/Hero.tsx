@@ -64,13 +64,13 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className='relative h-[450px] md:h-[590px] w-full order-0 md:order-1'>
+      <div className='relative w-full aspect-[0.98] md:aspect-auto md:h-[590px] order-0 md:order-1'>
         <Image
           src='/images/bg-image.png'
           alt='Background image'
           fill
           sizes='(max-width: 640px) 100vw, 590px'
-          className='object-cover'
+          className='object-contain'
           priority
         />
       </div>
