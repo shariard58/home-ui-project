@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { IoIosArrowForward } from 'react-icons/io'
 
 type TextTypes = string
 
@@ -12,7 +13,7 @@ const optionsTexts: TextTypes[] = [
 export default function Hero() {
   return (
     <div className='mt-6 flex justify-between text-white'>
-      <div className='w-full border border-white p-0'>
+      <div className='w-full p-0'>
         <p className='text-[35px] font-bold text-white m-0 p-0 leading-tight'>
           Want to Turn Social Media Into a
         </p>
@@ -40,11 +41,24 @@ export default function Hero() {
           ))}
         </div>
 
-        <div className='mt-[30px]'>
-          <button className='bg-[#FC004E] rounded-[10px] h-[40px] w-[300px] shadow-[2px_2px_10px_0px_#00E7F9] flex items-center'>
-            <span className='text-[20px] font-bold text-white'>GET STARTED</span>
-            <span className='text-[20px] font-bold text-white ml-[2px]'> &gt;</span>
+        <div className='mt-[30px] w-[300px]'>
+          <button className='relative bg-[#FC004E] rounded-[10px] h-[40px] w-full shadow-[2px_2px_10px_0px_#00E7F9]'>
+            <div className='absolute inset-0 flex items-center justify-center'>
+              <span className='text-[20px] font-bold text-white'>GET STARTED</span>
+              <IoIosArrowForward size={18} color='white' />
+            </div>
           </button>
+
+          <p className='text-[12px] text-center mt-[2px]'>
+            1-minute quiz for personalized Insights
+          </p>
+        </div>
+        {/* last section  */}
+        <div className='mt-[30px]'>
+          <p className='text-[12px] font-medium text-[#ABABAB]'>{`By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms`}</p>
+          <p className='text-[10px] font-medium text-[#ABABAB] mt-2'>
+            Fametonic 2025 ©All Rights Reserved.
+          </p>
         </div>
       </div>
       <div className='relative h-[590px] w-full'>
