@@ -3,16 +3,31 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #fc004e;
+  --secondary: #00e7f9;
+  --font-sans: var(--font-urbanist), sans-serif;
+  --font-figs: var(--font-figtree), sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #ff2d6d;
+    --secondary: #00ffff;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.font-sans {
+  font-family: var(--font-urbanist), sans-serif;
+}
+
+.font-figs {
+  font-family: var(--font-figtree), sans-serif;
 }
