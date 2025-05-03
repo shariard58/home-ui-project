@@ -46,19 +46,19 @@ export default function Hero() {
           <div className='w-full md:w-[300px] order-1 md:order-0 mx-auto md:mx-0'>
             <button className='relative bg-[#FC004E] rounded-[10px] h-[40px] w-full shadow-[2px_2px_10px_0px_#00E7F9]'>
               <div className='absolute inset-0 flex items-center justify-center gap-1'>
-                <span className='text-[20px] font-bold text-white'>GET STARTED</span>
+                <span className='text-[20px] font-bold text-white font-figs'>GET STARTED</span>
                 <IoIosArrowForward size={18} color='white' />
               </div>
             </button>
 
-            <p className='text-[12px] text-center mt-[2px]'>
+            <p className='text-[12px] text-center mt-[2px] font-figs'>
               1-minute quiz for personalized Insights
             </p>
           </div>
 
           <div className='order-0 md:order-1'>
-            <p className='text-center md:text-start text-[12px] font-medium text-[#ABABAB]'>{`By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms`}</p>
-            <p className='text-center md:text-start text-[10px] font-medium text-[#ABABAB] mt-2'>
+            <p className='font-figstext-center md:text-start text-[12px] font-medium text-[#ABABAB]'>{`By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms`}</p>
+            <p className='font-figs text-center md:text-start text-[10px] font-medium text-[#ABABAB] mt-2'>
               Fametonic 2025 ©All Rights Reserved.
             </p>
           </div>
