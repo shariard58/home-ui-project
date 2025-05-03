@@ -17,6 +17,8 @@ A clean and responsive homepage design built using **Next.js**, **Tailwind CSS**
 
 # Clone the repository
 git clone https://github.com/shariard58/home-ui-project
+
+# Access project folder
 cd home-ui-project
 
 # Install dependencies
