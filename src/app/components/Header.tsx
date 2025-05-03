@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 
 export default function Header() {
   return (
-    <div className='flex justify-between mt-4 md:mt-9 w-full max-w-5xl mx-auto px-4'>
+    <div className='flex justify-between mt-4 md:mt-9 w-full max-w-5xl mx-auto pl-[140px] pr-[30px] md:px-4 px-4'>
       <Image
         src='/images/logo.png'
         alt='Company Logo'
