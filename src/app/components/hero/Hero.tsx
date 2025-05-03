@@ -27,7 +27,7 @@ export default function Hero() {
 
         <div className='mt-4 flex flex-col gap-3'>
           {optionsTexts.map((text, index) => (
-            <div key={index} className='flex gap-4'>
+            <div key={index} className='flex gap-2 md:gap-4'>
               <Image
                 src='/images/li-icon.png'
                 alt='list-icon'
@@ -43,9 +43,9 @@ export default function Hero() {
 
         {/* last section  */}
         <div className='mt-[20px] md:mt-[30px] flex flex-col gap-[20px] md:gap-[30px] pb-8'>
-          <div className='w-[300px] order-1 md:order-0 mx-auto'>
+          <div className='w-full md:w-[300px] order-1 md:order-0 mx-auto md:mx-0'>
             <button className='relative bg-[#FC004E] rounded-[10px] h-[40px] w-full shadow-[2px_2px_10px_0px_#00E7F9]'>
-              <div className='absolute inset-0 flex items-center justify-center'>
+              <div className='absolute inset-0 flex items-center justify-center gap-1'>
                 <span className='text-[20px] font-bold text-white'>GET STARTED</span>
                 <IoIosArrowForward size={18} color='white' />
               </div>
